@@ -3,5 +3,5 @@ function addUser() {
     player_2=document.getElementById('player2_name_input').value;
     localStorage.setItem("player1_name", player_1);
     localStorage.setItem("player2_name", player_2);
-    window.location("game-page.html");
+    window.location="game-page.html";
 }
