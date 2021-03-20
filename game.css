@@ -1,5 +1,6 @@
 body
 {
+	font-family: cursive;
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(235,13,250,1) 0%, rgba(110,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
@@ -27,7 +28,7 @@ body
 }
 #output
 {
-background: darkgoldenrod;
+background-image: url("rainbow.png");
 border-radius: 10px;
 border-top: 10px solid #AA4465;
 padding: 10px;
@@ -39,4 +40,20 @@ text-align: left;
 }
 #login_button {
     outline: none;
+}
+#number_div {
+	background-image: url("rainbow.png");
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+}
+h4 {
+	color: white;
+}
+#player_question {
+	color: white;
+}
+#player_answer {
+	color: white;
 }

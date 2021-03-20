@@ -8,7 +8,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link rel="shortcut icon" href="plusminus.png">
 <link rel="stylesheet" type="text/css" href="game.css">
-        <script src="game_page.js"></script>
     </head>
     <body>
         <h4 id="player1_name"></h4> <span id="player1_score"></span>
@@ -23,14 +22,17 @@
                 <div id="output" class="col-lg-6"> </div>
                 <br>
                 <br>
+                <div id="number_div">
                 <h4>Number 1</h4>
                 <input type="text" id="number1" class="form-control" placeholder="Number 1">
                 <br>
                 <h4>Number 2</h4>
                 <input type="text" id="number2" class="form-control" placeholder="Number 2">
+                </div>
                 <br>
                 <button onclick="send()" class="btn btn-success" style="width: 30%;" id="sendButton">Send</button>
             </center>
         </div>
+        <script src="game_page.js"></script>
     </body>
 </html>
